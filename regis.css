@@ -1,0 +1,298 @@
+body {
+    background-color: transparent;
+    height: 700px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#myvideo{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.regis {
+    width: 500px;
+    height: 500px;
+    background-image: url(pexels-nghia-le-8860020.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 100px auto;
+    position: relative;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.regis::before {
+    content: "";
+    top: -100px;
+    left: 70px;
+    width: 360px;
+    height: 140%;
+    background-image: linear-gradient(red,blue);
+    position: absolute;
+    animation: gas 3s linear infinite;
+    border-radius: none;
+}
+
+@keyframes gas {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.regis::after {
+    content: "";
+    width: 98%;
+    height: 98%;
+    top: 5px;
+    left: 5px;
+    background-image: url(pexels-nghia-le-8860020.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    border-radius: 10%;;
+}
+
+.nick {
+   width: 480px;
+   height: 50px;
+   background-color: transparent;
+   position: absolute;
+   z-index: 5;
+   margin: 10px auto;
+   left: 10px;
+   border-radius: 10%;
+   margin-top: 40px;
+}
+
+.nick input{
+   width: 476px;
+   height: 30px;
+   margin-top: 10px;
+   font-size: larger;
+   font-family: arial;
+   border: none;
+   outline: none;
+   background: transparent;
+   backdrop-filter: blur(1px);
+   color: azure;
+   border-bottom: 2px solid white;
+   border-left: 2px solid white;
+}
+.nick input::placeholder {
+    color: aliceblue;
+    text-shadow: 0px 0px 5px gold;
+ }
+
+
+.pas {
+    width: 480px;
+    height: 50px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 5;
+    margin: 10px auto;
+    left: 10px;
+    border-radius: 10%;
+    margin-top: 90px;
+ }
+
+
+.pas input{
+    width: 476px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: larger;
+    font-family: arial;
+    border: none;
+    outline: none;
+    background: transparent;
+    backdrop-filter: blur(1px);
+    color: azure;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+ }
+ .pas input::placeholder {
+    color: aliceblue;
+    text-shadow: 0px 0px 5px gold;
+ }
+
+
+ .tel {
+    width: 480px;
+    height: 50px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 5;
+    margin: 10px auto;
+    left: 10px;
+    border-radius: 10%;
+    margin-top: 140px;
+ }
+
+
+ .tel input{
+    width: 476px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: larger;
+    font-family: arial;
+    border: none;
+    outline: none;
+    background: transparent;
+    backdrop-filter: blur(1px);
+    color: azure;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+ }
+ .tel input::placeholder {
+    color: aliceblue;
+    text-shadow: 0px 0px 5px gold;
+ }
+
+
+ .email {
+    width: 480px;
+    height: 50px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 5;
+    margin: 10px auto;
+    left: 10px;
+    border-radius: 10%;
+    margin-top: 190px;
+ }
+
+ .email input{
+    width: 476px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: larger;
+    font-family: arial;
+    border: none;
+    outline: none;
+    background: transparent;
+    backdrop-filter: blur(1px);
+    color: azure;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+ }
+ .email input::placeholder {
+    color: aliceblue;
+    text-shadow: 0px 0px 5px gold;
+ }
+
+
+ .password {
+    width: 480px;
+    height: 50px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 5;
+    margin: 10px auto;
+    left: 10px;
+    border-radius: 10%;
+    margin-top: 240px;
+ }
+
+ .password input{
+    width: 476px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: larger;
+    font-family: arial;
+    border: none;
+    outline: none;
+    background: transparent;
+    backdrop-filter: blur(1px);
+    color: azure;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+ }
+ .password input::placeholder {
+    color: aliceblue;
+    text-shadow: 0px 0px 5px gold;
+ }
+
+
+ h5 {
+    color: white;
+    position: absolute;
+    z-index: 10;
+    top: 270px;
+    left: 225px;
+    font-size: larger;
+ }
+
+ h5:hover{
+    text-shadow: 0px 0px 20px  white;
+ }
+
+ .go {
+    width: 480px;
+    height: 50px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 5;
+    margin: 10px auto;
+    left: 10px;
+    border-radius: 10%;
+    margin-top: 340px;
+ }
+
+button {
+    width: 400px;
+    height: 35px;
+    margin-left: 40px;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: serif;
+}
+
+button:hover {
+    transition: all 3s;
+    background-color: blue;
+    color: white;
+    text-shadow: 1px 1px 15px white;
+    border: 2px solid white;
+    box-shadow: 0px 0px 2px white;
+}
+
+
+
+h6 {
+    position: absolute;
+    color: aliceblue;
+    z-index: 100;
+    top: 375px;
+    left: 120px;
+    font-size: 20px;
+    color: blue;
+    text-shadow: 0px 0px 5px white;
+}
+
+h6:hover {
+    text-shadow: 0px 0px 5px white;
+}
+
+a {
+    color: greenyellow;
+    position: absolute;
+    z-index: 200;
+    top: 422px;
+    left: 300px;
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: 0px 0px 5px white;
+}
+
+a:hover{
+    color: red;
+    text-shadow: 0px 0px 5px white;
+}

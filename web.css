@@ -1,0 +1,98 @@
+body{
+   background-color: bisque;
+   margin: 0px;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 730px;
+   width: 800px;
+}
+
+#myvideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.judul h1{
+    font-size: 150px;
+    position: absolute;
+    margin-left: 350px;
+    font-family: sans-serif;
+    color: #fff;
+    transition: all 1s;
+    margin-top: 150px;
+}
+
+h1:hover {
+    font-size: 150px;
+    position: absolute;
+    margin-left: 350px;
+    font-family: sans-serif;
+    color: transparent;
+    -webkit-text-stroke: 3px #fff;
+}
+
+.judul h4{
+    font-size: 40px;
+    position: absolute;
+    margin-left: 630px;
+    font-family: sans-serif;
+    margin-top: 340px;
+    color: #fff;
+    transition: all 1s;
+}
+
+h4:hover {
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+}
+
+.img img {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    margin-top: 450px;
+    margin-left: 600px;
+    transition: all 1s;
+}
+
+.img img:hover {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    margin-top: 450px;
+    margin-left: 600px;
+    background-color: transparent;
+}
+
+.img1 img {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-top: 450px;
+    margin-left: 750px;
+    transition: all 1s;
+}
+
+.img1 img:hover {
+    width: 90px;
+    height: 90px;
+    background-color: transparent;
+}
+
+.img2 img {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-top: 450px;
+    margin-left: 900px;
+    transition: all 1s;
+}
+
+.img2 img:hover {
+    width: 90px;
+    height: 90px;
+}

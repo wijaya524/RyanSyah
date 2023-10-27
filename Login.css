@@ -1,0 +1,246 @@
+body{
+   background-color: darkgrey;
+   height: auto;
+   margin: 0px;
+   padding: 0px;
+}
+
+.kontainer{
+   width: 500px;
+   height: 500px;
+   margin: 100px auto;
+   border-radius: 10%;
+   border: 5px solid black;
+   position: relative;
+   background-color: rgba(201, 54, 54, 0.048);
+   backdrop-filter: blur(4px);
+   box-shadow: 20px 20px 20px 5px black;
+   z-index: 600;
+}
+
+#myvideo {  
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   min-width: 100%;
+   min-height: 100%;
+}
+   
+
+.h1{
+   text-align: center;
+   margin-top: 1px;
+   margin-left: 33%;
+   position: absolute;
+   font-size: 25px;
+   font-family: arial;
+   letter-spacing: 6px;
+   color: azure;
+   text-shadow: 0px 0px 5px white;
+}
+
+.h1:hover{
+  background-size: 1000%;
+  background-image: linear-gradient(90deg,red,blue,yellow,green,purple);
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: gas 10s linear infinite;
+  text-shadow: none;
+  animation-delay: all 6s;
+}
+
+@keyframes gas {
+   to{
+      background-position: 100%;
+   }
+}
+
+.h3{
+   text-align: center;
+   margin-top: 85px;
+   margin-left: 30%;
+   position: absolute;
+   font-size: 15px;
+   font-family: sans-serif;
+   letter-spacing: 1px;
+   color: azure;  
+   text-shadow: 0px 0px 3px white;
+}
+
+.h3:hover{
+   text-shadow: 0px 0px 3px aqua;
+}
+
+.input{
+   width: 300px;
+   height: 70px;
+   background-color: transparent;
+   position: relative;
+   top: 150px;
+   left: 100px;
+   box-sizing: border-box;
+}
+
+.input label{
+   font-size: 15px;
+   font-weight: bolder;
+   font-variant: small-caps;
+   color: aliceblue;
+   text-shadow: 0px 0px 2px white;
+}
+
+.input label:hover{
+   text-shadow: 0px 0px 5px cyan;
+}
+
+.input input{
+   width: 293px;
+   height: 30px;
+   margin-top: 10px;
+   background: transparent;
+   border: none;
+   border-bottom: 2px groove aliceblue;
+   outline: none;
+   font-size: 20px;
+   color: aliceblue;
+   text-shadow: 0px 0px 2px white;
+}
+
+.input input:hover{
+   text-shadow: 0px 0px 3px blue;
+}
+
+
+.password{
+   width: 300px;
+   height: 70px;
+   background-color: transparent;
+   position: relative;
+   top: 160px;
+   left: 100px;
+   box-sizing: border-box;
+}
+
+.password label{
+   font-size: 15px;
+   font-weight: bolder;
+   font-variant: small-caps;
+   color: aliceblue;
+   text-shadow: 0px 0px 2px white;
+}
+
+.password label:hover{
+   text-shadow: 0px 0px 5px cyan;
+}
+
+.password input{
+   width: 293px;
+   height: 30px;
+   margin-top: 10px;
+   background: transparent;
+   border: none;
+   border-bottom: 2px groove white;
+   outline: none;
+   font-size: 20px;
+   color: aliceblue;
+}
+
+.password input:hover{
+   text-shadow: 0px 0px 2px red;
+}
+
+.klik {
+   width: 150px;
+   height: 30px;
+   background-color: black;
+   margin-left: 180px;
+   margin-top: 180px;
+   position: relative;
+   overflow: hidden;
+   border: 0.5px  ;
+}
+
+.klik::before {
+   content: "";
+   width: 50px;
+   height: 550%;
+   left: 50px;
+   top: -65px;
+   background-image: linear-gradient(red,blue);
+   position: absolute;
+   animation: button 2s linear infinite;
+}
+
+@keyframes button {
+   100%{
+      transform: rotate(360deg);
+   }
+}
+
+.klik::after {
+   content: "";
+   width: 146px;
+   left: 2px;
+   height: 90%;
+   top: 1.5px;
+   background-color: black;
+   position: absolute;
+}
+
+button {
+   z-index: 100;
+   width: 145.5px;
+   height: 27px;
+   position: absolute;
+   top: 1.5px;
+   left: 2.5px;
+   border: none;
+   background-color: transparent;
+   color: aliceblue;
+}
+
+button:hover{
+   transition: all 3s;
+   background-image: radial-gradient(purple,black);
+   color: white;
+   text-shadow: 1px 1px 15px white;
+}
+
+h4{
+   position: absolute;
+   left: 170px;
+   color: white;
+   text-shadow: 0px 0px 10px red;
+   font-family: serif;
+   top: 360px;
+}
+
+h4:hover{
+   text-shadow: 0px 0px 2px aqua;
+   color: red;
+}
+
+.regis h5 {
+   position: absolute;
+   top: 390px;
+   left: 140px;
+   color: white;
+   text-shadow: 0px 0px 10px red;
+   font-family: serif;
+   font-size: larger;
+}
+
+.regis h5:hover{
+   text-shadow: 0px 0px 2px green;
+}
+
+.regis a {
+   text-decoration: none;
+   text-shadow: none;
+   color: azure;
+   text-shadow: 0px 0px 2px wheat;
+}
+
+.regis a:hover{
+   color: aqua;
+}
