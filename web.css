@@ -1,11 +1,12 @@
+
 body{
    background-color: bisque;
-   margin: 0px;
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
-   height: 730px;
-   width: 800px;
+   height: 7px;
+   width: 100%;
+   margin: 0px;
 }
 
 #myvideo {
@@ -14,12 +15,14 @@ body{
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
+    margin: 0;
 }
+
 
 .judul h1{
     font-size: 150px;
     position: absolute;
-    margin-left: 350px;
+    margin-left: 400px;
     font-family: sans-serif;
     color: #fff;
     transition: all 1s;
@@ -29,7 +32,7 @@ body{
 h1:hover {
     font-size: 150px;
     position: absolute;
-    margin-left: 350px;
+    margin-left: 400px;
     font-family: sans-serif;
     color: transparent;
     -webkit-text-stroke: 3px #fff;
@@ -38,7 +41,7 @@ h1:hover {
 .judul h4{
     font-size: 40px;
     position: absolute;
-    margin-left: 630px;
+    margin-left: 670px;
     font-family: sans-serif;
     margin-top: 340px;
     color: #fff;
